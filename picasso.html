@@ -1,41 +1,83 @@
 <html>
-    <head>
+  <head>
+    <title>My CSS Painting</title>
+    <link rel="stylesheet" href="external.css" />
+  </head>
+  <body>
+    <div class="canvas">
+      <div class="circle">
+        <div class="grass-base">
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+          <div class="grass"></div>
+        </div>
+        <div class="body"></div>
+        <div class="feet4"></div>
+        <div class="belly"></div>
+        <div class="feet1"></div>
+        <div class="feet2"></div>
+        <div class="feet3"></div>
+        <div class="head"></div>
+        <div class="left-ear"></div>
+        <div class="right-ear"></div>
+        <div class="lil-left-ear"></div>
+        <div class="lil-right-ear"></div>
+        <div class="left-eye"></div>
+        <div class="left-eye-shine"></div>
+        <div class="right-eye"></div>
+        <div class="right-eye-shine"></div>
+        <div class="snout"></div>
+        <div class="nose"></div>
+        <div class="mouth"></div>
+      </div>
+    </div>
+    <div class="form">
+      <form action="formsubmitted.html" method="post">
+        <label for="first-name">First Name: </label>
+        <input type="text" name="first-name" id="first-name" required />
 
-    </head>
-    <body>
+        <label for="last-name">Last Name: </label>
+        <input type="text" name="last-name" id="last-name" required />
+        <br />
 
-        
+        <label for="email">Email Address: </label>
+        <input type="email" name="email" id="email" required />
+        <br />
 
-        <form action="formsubmitted.html" method="post">
-            <label for="first-name">First Name: </label>
-            <input type="text" name="first-name" id="first-name" required />
+        <label for="phone">Phone Number: </label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          required
+        />
+        <br />
 
-            <label for="last-name">Last Name: </label>
-            <input type="text" name="last-name" id="last-name" required />
-            <br>
-
-            <label for="email">Email Address: </label>
-            <input type="email" name="email" id="email" required />
-            <br>
-
-            <label for="phone">Phone Number: </label>
-            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-            <br>
-
-            <label for="contact">Your reason for contacting: </label>
-            <select name="contact" id="contact">
-                <option value="">(select one)</option>
-                <option value="1">Purchase inquiry</option>
-                <option value="2">Item inquiry</option>
-                <option value="3">General inquiry</option>
-                <option value="4">Login issue</option>
-                <option value="5">Personal issue</option>
-                <option value="6">Other</option>
-            </select>
-            <br>
-            <input type="submit" name="Submit" id="Submit" value="Submit" />
-        </form>
-    </body>
-    <footer>
-    </footer>
+        <label for="contact">Your reason for contacting: </label>
+        <select name="contact" id="contact">
+          <option value="">(select one)</option>
+          <option value="1">Purchase inquiry</option>
+          <option value="2">Item inquiry</option>
+          <option value="3">General inquiry</option>
+          <option value="4">Login issue</option>
+          <option value="5">Personal issue</option>
+          <option value="6">Other</option>
+        </select>
+        <br />
+        <input type="submit" name="Submit" id="Submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+  <footer></footer>
 </html>
