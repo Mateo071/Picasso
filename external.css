@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.canvas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(156, 150, 121);
+  width: 100%;
+  height: 100vmin;
+}
+
+.circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 80vmin;
+  height: 80vmin;
+  border-radius: 50%;
+  background-color: rgb(127, 185, 212);
+}
+
+.grass-base {
+  position: relative;
+  display: flex;
+  justify-content: 30%;
+  height: 40vmin;
+  width: 80vmin;
+  border-radius: 0 0 120vmin 120vmin;
+  top: 50%;
+  background-color:green;
+}
+
+.grass {
+  position: relative;
+  display: flex;
+  width: 3vmin;
+  height: 3vmin;
+  border-left: 3vmin solid transparent;
+  border-right: 3vmin solid transparent;
+  border-top: 5vmin solid rgb(127, 185, 212);
+}
+.body {
+  position: absolute;
+  display: flex;
+  width: 30%;
+  height: 15%;
+  border-radius: 50%;
+  background-color:rgb(102, 92, 83);
+  top: 40%;
+  right: 50%;
+}
+.feet3 {
+  position: absolute;
+  display: flex;
+  width: 5%;
+  height: 15%;
+  border-radius: 50%;
+  background-color:rgb(102, 92, 83);
+  top: 45%;
+  right: 56%;
+}
+.belly {
+  position: absolute;
+  display: flex;
+  width: 16%;
+  height: 8%;
+  border-radius: 50%;
+  background-color:rgb(160, 139, 121);
+  top: 47%;
+  right: 55%;
+}
+
+.feet1 {
+  position: absolute;
+  display: flex;
+  width: 5%;
+  height: 10%;
+  border-radius: 50%;
+  background-color:rgb(102, 92, 83);
+  top: 50%;
+  right: 74%;
+}
+
+.feet2 {
+  position: absolute;
+  display: flex;
+  width: 5%;
+  height: 10%;
+  border-radius: 50%;
+  background-color:rgb(102, 92, 83);
+  top: 50%;
+  right: 50%;
+}
+
+.feet4 {
+  position: absolute;
+  display: flex;
+  width: 5%;
+  height: 10%;
+  border-radius: 50%;
+  background-color:rgb(102, 92, 83);
+  top: 50%;
+  right: 68%;
+}
+
+.head {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 25%;
+  height: 20%;
+  background-color: rgb(102, 92, 83);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  bottom: 52%;
+  outline: auto rgb(0, 0, 0);
+}
+
+.left-ear {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 8%;
+  height: 9%;
+  background-color: rgb(102, 92, 83);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  bottom: 64%;
+  left: 36%;
+}
+
+.lil-left-ear {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(160, 139, 121);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  bottom: 65%;
+  left: 39%;
+}
+
+.right-ear {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 8%;
+  height: 9%;
+  background-color: rgb(102, 92, 83);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  bottom: 64%;
+  left: 56%;
+}
+
+.lil-right-ear {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 4%;
+  height: 4%;
+  background-color: rgb(160, 139, 121);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  bottom: 65%;
+  left: 57%;
+}
+
+.left-eye {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 5%;
+  height: 5%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  bottom: 60%;
+  left: 43%;
+}
+
+.left-eye-shine {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 1%;
+  height: 1%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  bottom: 63%;
+  left: 46%;
+}
+
+.right-eye {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 5%;
+  height: 5%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  bottom: 60%;
+  left: 53%;
+}
+
+.right-eye-shine {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 1%;
+  height: 1%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  bottom: 63%;
+  left: 56%;
+}
+
+.snout {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 12%;
+  height: 8%;
+  background-color: rgb(160, 139, 121);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  bottom: 52.5%;
+}
+
+.nose {
+  position: absolute;
+  display: flex;
+  display: block;
+  width: 6%;
+  height: 4%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  bottom: 56%;
+}
+
+.mouth {
+  position: absolute;
+  display: flex;
+  display: block;
+  border: 2px solid #000000;
+  border-left: 0;
+  border-top: 0;
+  width: 3%;
+  height: 3%;
+  transform: rotate(225deg);
+  bottom: 53%;
+}
+
+  @media screen and (min-width: 800px) {
+    .container {
+      font-size: 1.4em;
+    }
+  }
